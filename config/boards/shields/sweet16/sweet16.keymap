@@ -44,10 +44,10 @@
 // | BT1 | BT2 | BT3 | BT4 |
 // |     |     |     |     |
 // |     |     |     |     |
-// |     |     |     |BTCLR|
+// |     |     |TOGOU|BTCLR|
                         bindings = <
    &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3
-   &none        &none        &none        &none 
+   &hiworld     &none        &none        &none 
    &none        &none        &none        &none 
    &none        &out OUT_TOG &trans       &bt BT_CLR 
                         >;
