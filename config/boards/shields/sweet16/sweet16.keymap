@@ -20,7 +20,7 @@
                                 , <&macro_tap &kp SPACE &kp P &kp L &kp A &kp C &kp E &kp LS(N1)>
                                 ;
                 )
-        
+        };
 
         keymap {
                 compatible = "zmk,keymap";
