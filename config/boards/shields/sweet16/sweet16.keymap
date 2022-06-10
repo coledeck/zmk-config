@@ -6,7 +6,7 @@
 
 / {
         macros {
-                ZMK_MACRO(hiworld
+                ZMK_MACRO(hiworld,
                         wait-ms = <30>;
                         tap-ms = <40>;
                         bindings
