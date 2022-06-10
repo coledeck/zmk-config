@@ -347,7 +347,6 @@
 				, <&macro_tap &kp S &kp SPACE &kp O &kp F &kp SPACE &kp LS(G) &kp LS(N)>
 				, <&macro_tap &kp LS(U) &kp SLASH &kp LS(L) &kp I &kp N &kp U &kp X>
 				, <&macro_tap &kp LS(N1) &kp SPACE>
-				, <&macro_tap &_linux23>
 				;
 		)
         };
