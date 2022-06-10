@@ -10,7 +10,7 @@
 			wait-ms = <30>;
 			tap-ms = <30>;
 			bindings
-				= <&macro_tap &kp LS(I) &kp QUOTE &kp D>
+				= <&macro_tap &kp LS(I) &kp SINGLE_QUOTE &kp D>
 				, <&macro_tap &kp SPACE &kp J &kp U &kp S &kp T>
 				, <&macro_tap &kp SPACE &kp L &kp I &kp K &kp E>
 				, <&macro_tap &kp SPACE &kp T &kp O>
@@ -19,7 +19,7 @@
 				, <&macro_tap &kp SPACE &kp A>
 				, <&macro_tap &kp SPACE &kp M &kp O &kp M &kp E &kp N &kp T &kp PERIOD>
 				, <&macro_tap &kp SPACE &kp LS(W) &kp H &kp A &kp T>
-				, <&macro_tap &kp SPACE &kp Y &kp O &kp U &kp QUOTE &kp R &kp E>
+				, <&macro_tap &kp SPACE &kp Y &kp O &kp U &kp SINGLE_QUOTE &kp R &kp E>
 				, <&macro_tap &kp SPACE &kp R &kp E &kp F &kp E &kp R &kp I &kp N &kp G>
 				, <&macro_tap &kp SPACE &kp T &kp O>
 				, <&macro_tap &kp SPACE &kp A &kp S>
@@ -30,7 +30,7 @@
 				, <&macro_tap &kp SPACE &kp LS(G) &kp LS(N) &kp LS(U) &kp SLASH &kp LS(L) &kp I &kp N &kp U &kp X &kp COMMA>
 				, <&macro_tap &kp SPACE &kp O &kp R>
 				, <&macro_tap &kp SPACE &kp A &kp S>
-				, <&macro_tap &kp SPACE &kp LS(I) &kp QUOTE &kp V &kp E>
+				, <&macro_tap &kp SPACE &kp LS(I) &kp SINGLE_QUOTE &kp V &kp E>
 				, <&macro_tap &kp SPACE &kp R &kp E &kp C &kp E &kp N &kp T &kp L &kp Y>
 				, <&macro_tap &kp SPACE &kp T &kp A &kp K &kp E &kp N>
 				, <&macro_tap &kp SPACE &kp T &kp O>
@@ -167,7 +167,7 @@
 				, <&macro_tap &kp SPACE &kp T &kp H &kp A &kp T>
 				, <&macro_tap &kp SPACE &kp A &kp L &kp L &kp O &kp C &kp A &kp T &kp E &kp S>
 				, <&macro_tap &kp SPACE &kp T &kp H &kp E>
-				, <&macro_tap &kp SPACE &kp M &kp A &kp C &kp H &kp I &kp N &kp E &kp QUOTE &kp S>
+				, <&macro_tap &kp SPACE &kp M &kp A &kp C &kp H &kp I &kp N &kp E &kp SINGLE_QUOTE &kp S>
 				, <&macro_tap &kp SPACE &kp R &kp E &kp S &kp O &kp U &kp R &kp C &kp E &kp S>
 				, <&macro_tap &kp SPACE &kp T &kp O>
 				, <&macro_tap &kp SPACE &kp T &kp H &kp E>
@@ -258,12 +258,12 @@
                 lower_layer {
 // ------------------------
 // | BT1 | BT2 | BT3 | BT4 |
-// |     |     |     |     |
+// |MACRO|     |     |     |
 // |     |     |     |     |
 // |     |     |TOGOU|BTCLR|
                         bindings = <
    &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3
-   &hiworld     &none        &none        &none 
+   &linux       &none        &none        &none 
    &none        &none        &none        &none 
    &none        &out OUT_TOG &trans       &bt BT_CLR 
                         >;
