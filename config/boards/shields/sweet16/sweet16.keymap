@@ -321,14 +321,8 @@
 				= <&macro_tap &_linux91>
 				, <&macro_tap &_linux92>
 				, <&macro_tap &_linux93>
-				, <&macro_tap &__linux32>
 				;
 		)
-		ZMK_MACRO(__linux32,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= 				;
 		)
 		ZMK_MACRO(_linux0,
 			wait-ms = <20>;
