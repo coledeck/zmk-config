@@ -11,18 +11,6 @@
 			tap-ms = <20>;
 			bindings
 				= <&macro_tap &_linux0>
-				, <&macro_tap &_linux1>
-				, <&macro_tap &_linux2>
-				, <&macro_tap &_linux3>
-				, <&macro_tap &_linux4>
-				, <&macro_tap &_linux5>
-				, <&macro_tap &_linux6>
-				, <&macro_tap &_linux7>
-				, <&macro_tap &_linux8>
-				, <&macro_tap &_linux9>
-				, <&macro_tap &_linux10>
-				, <&macro_tap &_linux11>
-				, <&macro_tap &_linux12>
 				, <&macro_tap &__linux1>
 				;
 		)
@@ -30,18 +18,9 @@
 			wait-ms = <20>;
 			tap-ms = <20>;
 			bindings
-				= <&macro_tap &_linux13>
-				, <&macro_tap &_linux14>
-				, <&macro_tap &_linux15>
-				, <&macro_tap &_linux16>
-				, <&macro_tap &_linux17>
-				, <&macro_tap &_linux18>
-				, <&macro_tap &_linux19>
-				, <&macro_tap &_linux20>
-				, <&macro_tap &_linux21>
-				, <&macro_tap &_linux22>
-				, <&macro_tap &_linux23>
-				, <&macro_tap &_linux24>
+				= <&macro_tap &_linux1>
+				, <&macro_tap &_linux2>
+				, <&macro_tap &_linux3>
 				, <&macro_tap &__linux2>
 				;
 		)
@@ -49,18 +28,9 @@
 			wait-ms = <20>;
 			tap-ms = <20>;
 			bindings
-				= <&macro_tap &_linux25>
-				, <&macro_tap &_linux26>
-				, <&macro_tap &_linux27>
-				, <&macro_tap &_linux28>
-				, <&macro_tap &_linux29>
-				, <&macro_tap &_linux30>
-				, <&macro_tap &_linux31>
-				, <&macro_tap &_linux32>
-				, <&macro_tap &_linux33>
-				, <&macro_tap &_linux34>
-				, <&macro_tap &_linux35>
-				, <&macro_tap &_linux36>
+				= <&macro_tap &_linux4>
+				, <&macro_tap &_linux5>
+				, <&macro_tap &_linux6>
 				, <&macro_tap &__linux3>
 				;
 		)
@@ -68,18 +38,9 @@
 			wait-ms = <20>;
 			tap-ms = <20>;
 			bindings
-				= <&macro_tap &_linux37>
-				, <&macro_tap &_linux38>
-				, <&macro_tap &_linux39>
-				, <&macro_tap &_linux40>
-				, <&macro_tap &_linux41>
-				, <&macro_tap &_linux42>
-				, <&macro_tap &_linux43>
-				, <&macro_tap &_linux44>
-				, <&macro_tap &_linux45>
-				, <&macro_tap &_linux46>
-				, <&macro_tap &_linux47>
-				, <&macro_tap &_linux48>
+				= <&macro_tap &_linux7>
+				, <&macro_tap &_linux8>
+				, <&macro_tap &_linux9>
 				, <&macro_tap &__linux4>
 				;
 		)
@@ -87,18 +48,9 @@
 			wait-ms = <20>;
 			tap-ms = <20>;
 			bindings
-				= <&macro_tap &_linux49>
-				, <&macro_tap &_linux50>
-				, <&macro_tap &_linux51>
-				, <&macro_tap &_linux52>
-				, <&macro_tap &_linux53>
-				, <&macro_tap &_linux54>
-				, <&macro_tap &_linux55>
-				, <&macro_tap &_linux56>
-				, <&macro_tap &_linux57>
-				, <&macro_tap &_linux58>
-				, <&macro_tap &_linux59>
-				, <&macro_tap &_linux60>
+				= <&macro_tap &_linux10>
+				, <&macro_tap &_linux11>
+				, <&macro_tap &_linux12>
 				, <&macro_tap &__linux5>
 				;
 		)
@@ -106,18 +58,9 @@
 			wait-ms = <20>;
 			tap-ms = <20>;
 			bindings
-				= <&macro_tap &_linux61>
-				, <&macro_tap &_linux62>
-				, <&macro_tap &_linux63>
-				, <&macro_tap &_linux64>
-				, <&macro_tap &_linux65>
-				, <&macro_tap &_linux66>
-				, <&macro_tap &_linux67>
-				, <&macro_tap &_linux68>
-				, <&macro_tap &_linux69>
-				, <&macro_tap &_linux70>
-				, <&macro_tap &_linux71>
-				, <&macro_tap &_linux72>
+				= <&macro_tap &_linux13>
+				, <&macro_tap &_linux14>
+				, <&macro_tap &_linux15>
 				, <&macro_tap &__linux6>
 				;
 		)
@@ -125,18 +68,9 @@
 			wait-ms = <20>;
 			tap-ms = <20>;
 			bindings
-				= <&macro_tap &_linux73>
-				, <&macro_tap &_linux74>
-				, <&macro_tap &_linux75>
-				, <&macro_tap &_linux76>
-				, <&macro_tap &_linux77>
-				, <&macro_tap &_linux78>
-				, <&macro_tap &_linux79>
-				, <&macro_tap &_linux80>
-				, <&macro_tap &_linux81>
-				, <&macro_tap &_linux82>
-				, <&macro_tap &_linux83>
-				, <&macro_tap &_linux84>
+				= <&macro_tap &_linux16>
+				, <&macro_tap &_linux17>
+				, <&macro_tap &_linux18>
 				, <&macro_tap &__linux7>
 				;
 		)
@@ -144,16 +78,257 @@
 			wait-ms = <20>;
 			tap-ms = <20>;
 			bindings
+				= <&macro_tap &_linux19>
+				, <&macro_tap &_linux20>
+				, <&macro_tap &_linux21>
+				, <&macro_tap &__linux8>
+				;
+		)
+		ZMK_MACRO(__linux8,
+			wait-ms = <20>;
+			tap-ms = <20>;
+			bindings
+				= <&macro_tap &_linux22>
+				, <&macro_tap &_linux23>
+				, <&macro_tap &_linux24>
+				, <&macro_tap &__linux9>
+				;
+		)
+		ZMK_MACRO(__linux9,
+			wait-ms = <20>;
+			tap-ms = <20>;
+			bindings
+				= <&macro_tap &_linux25>
+				, <&macro_tap &_linux26>
+				, <&macro_tap &_linux27>
+				, <&macro_tap &__linux10>
+				;
+		)
+		ZMK_MACRO(__linux10,
+			wait-ms = <20>;
+			tap-ms = <20>;
+			bindings
+				= <&macro_tap &_linux28>
+				, <&macro_tap &_linux29>
+				, <&macro_tap &_linux30>
+				, <&macro_tap &__linux11>
+				;
+		)
+		ZMK_MACRO(__linux11,
+			wait-ms = <20>;
+			tap-ms = <20>;
+			bindings
+				= <&macro_tap &_linux31>
+				, <&macro_tap &_linux32>
+				, <&macro_tap &_linux33>
+				, <&macro_tap &__linux12>
+				;
+		)
+		ZMK_MACRO(__linux12,
+			wait-ms = <20>;
+			tap-ms = <20>;
+			bindings
+				= <&macro_tap &_linux34>
+				, <&macro_tap &_linux35>
+				, <&macro_tap &_linux36>
+				, <&macro_tap &__linux13>
+				;
+		)
+		ZMK_MACRO(__linux13,
+			wait-ms = <20>;
+			tap-ms = <20>;
+			bindings
+				= <&macro_tap &_linux37>
+				, <&macro_tap &_linux38>
+				, <&macro_tap &_linux39>
+				, <&macro_tap &__linux14>
+				;
+		)
+		ZMK_MACRO(__linux14,
+			wait-ms = <20>;
+			tap-ms = <20>;
+			bindings
+				= <&macro_tap &_linux40>
+				, <&macro_tap &_linux41>
+				, <&macro_tap &_linux42>
+				, <&macro_tap &__linux15>
+				;
+		)
+		ZMK_MACRO(__linux15,
+			wait-ms = <20>;
+			tap-ms = <20>;
+			bindings
+				= <&macro_tap &_linux43>
+				, <&macro_tap &_linux44>
+				, <&macro_tap &_linux45>
+				, <&macro_tap &__linux16>
+				;
+		)
+		ZMK_MACRO(__linux16,
+			wait-ms = <20>;
+			tap-ms = <20>;
+			bindings
+				= <&macro_tap &_linux46>
+				, <&macro_tap &_linux47>
+				, <&macro_tap &_linux48>
+				, <&macro_tap &__linux17>
+				;
+		)
+		ZMK_MACRO(__linux17,
+			wait-ms = <20>;
+			tap-ms = <20>;
+			bindings
+				= <&macro_tap &_linux49>
+				, <&macro_tap &_linux50>
+				, <&macro_tap &_linux51>
+				, <&macro_tap &__linux18>
+				;
+		)
+		ZMK_MACRO(__linux18,
+			wait-ms = <20>;
+			tap-ms = <20>;
+			bindings
+				= <&macro_tap &_linux52>
+				, <&macro_tap &_linux53>
+				, <&macro_tap &_linux54>
+				, <&macro_tap &__linux19>
+				;
+		)
+		ZMK_MACRO(__linux19,
+			wait-ms = <20>;
+			tap-ms = <20>;
+			bindings
+				= <&macro_tap &_linux55>
+				, <&macro_tap &_linux56>
+				, <&macro_tap &_linux57>
+				, <&macro_tap &__linux20>
+				;
+		)
+		ZMK_MACRO(__linux20,
+			wait-ms = <20>;
+			tap-ms = <20>;
+			bindings
+				= <&macro_tap &_linux58>
+				, <&macro_tap &_linux59>
+				, <&macro_tap &_linux60>
+				, <&macro_tap &__linux21>
+				;
+		)
+		ZMK_MACRO(__linux21,
+			wait-ms = <20>;
+			tap-ms = <20>;
+			bindings
+				= <&macro_tap &_linux61>
+				, <&macro_tap &_linux62>
+				, <&macro_tap &_linux63>
+				, <&macro_tap &__linux22>
+				;
+		)
+		ZMK_MACRO(__linux22,
+			wait-ms = <20>;
+			tap-ms = <20>;
+			bindings
+				= <&macro_tap &_linux64>
+				, <&macro_tap &_linux65>
+				, <&macro_tap &_linux66>
+				, <&macro_tap &__linux23>
+				;
+		)
+		ZMK_MACRO(__linux23,
+			wait-ms = <20>;
+			tap-ms = <20>;
+			bindings
+				= <&macro_tap &_linux67>
+				, <&macro_tap &_linux68>
+				, <&macro_tap &_linux69>
+				, <&macro_tap &__linux24>
+				;
+		)
+		ZMK_MACRO(__linux24,
+			wait-ms = <20>;
+			tap-ms = <20>;
+			bindings
+				= <&macro_tap &_linux70>
+				, <&macro_tap &_linux71>
+				, <&macro_tap &_linux72>
+				, <&macro_tap &__linux25>
+				;
+		)
+		ZMK_MACRO(__linux25,
+			wait-ms = <20>;
+			tap-ms = <20>;
+			bindings
+				= <&macro_tap &_linux73>
+				, <&macro_tap &_linux74>
+				, <&macro_tap &_linux75>
+				, <&macro_tap &__linux26>
+				;
+		)
+		ZMK_MACRO(__linux26,
+			wait-ms = <20>;
+			tap-ms = <20>;
+			bindings
+				= <&macro_tap &_linux76>
+				, <&macro_tap &_linux77>
+				, <&macro_tap &_linux78>
+				, <&macro_tap &__linux27>
+				;
+		)
+		ZMK_MACRO(__linux27,
+			wait-ms = <20>;
+			tap-ms = <20>;
+			bindings
+				= <&macro_tap &_linux79>
+				, <&macro_tap &_linux80>
+				, <&macro_tap &_linux81>
+				, <&macro_tap &__linux28>
+				;
+		)
+		ZMK_MACRO(__linux28,
+			wait-ms = <20>;
+			tap-ms = <20>;
+			bindings
+				= <&macro_tap &_linux82>
+				, <&macro_tap &_linux83>
+				, <&macro_tap &_linux84>
+				, <&macro_tap &__linux29>
+				;
+		)
+		ZMK_MACRO(__linux29,
+			wait-ms = <20>;
+			tap-ms = <20>;
+			bindings
 				= <&macro_tap &_linux85>
 				, <&macro_tap &_linux86>
 				, <&macro_tap &_linux87>
-				, <&macro_tap &_linux88>
+				, <&macro_tap &__linux30>
+				;
+		)
+		ZMK_MACRO(__linux30,
+			wait-ms = <20>;
+			tap-ms = <20>;
+			bindings
+				= <&macro_tap &_linux88>
 				, <&macro_tap &_linux89>
 				, <&macro_tap &_linux90>
-				, <&macro_tap &_linux91>
+				, <&macro_tap &__linux31>
+				;
+		)
+		ZMK_MACRO(__linux31,
+			wait-ms = <20>;
+			tap-ms = <20>;
+			bindings
+				= <&macro_tap &_linux91>
 				, <&macro_tap &_linux92>
 				, <&macro_tap &_linux93>
+				, <&macro_tap &__linux32>
 				;
+		)
+		ZMK_MACRO(__linux32,
+			wait-ms = <20>;
+			tap-ms = <20>;
+			bindings
+				= 				;
 		)
 		ZMK_MACRO(_linux0,
 			wait-ms = <20>;
