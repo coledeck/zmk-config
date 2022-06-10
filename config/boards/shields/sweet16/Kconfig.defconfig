@@ -2,6 +2,5 @@ if SHIELD_SWEET16
 
 config ZMK_KEYBOARD_NAME
     default "1up Sweet 16"
-config ZMK_BEHAVIORS_QUEUE_SIZE
-    default 512
+
 endif
