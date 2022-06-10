@@ -323,7 +323,6 @@
 				, <&macro_tap &_linux93>
 				;
 		)
-		)
 		ZMK_MACRO(_linux0,
 			wait-ms = <20>;
 			tap-ms = <20>;
