@@ -7,7 +7,7 @@
 / {
         macros {
 		ZMK_MACRO(linux,
-			wait-ms = <20>;
+			wait-ms = <800.0>;
 			tap-ms = <20>;
 			bindings
 				= <&macro_tap &_linux0>
@@ -27,7 +27,7 @@
 				;
 		)
 		ZMK_MACRO(__linux1,
-			wait-ms = <20>;
+			wait-ms = <800.0>;
 			tap-ms = <20>;
 			bindings
 				= <&macro_tap &_linux13>
@@ -46,7 +46,7 @@
 				;
 		)
 		ZMK_MACRO(__linux2,
-			wait-ms = <20>;
+			wait-ms = <800.0>;
 			tap-ms = <20>;
 			bindings
 				= <&macro_tap &_linux25>
@@ -65,7 +65,7 @@
 				;
 		)
 		ZMK_MACRO(__linux3,
-			wait-ms = <20>;
+			wait-ms = <800.0>;
 			tap-ms = <20>;
 			bindings
 				= <&macro_tap &_linux37>
@@ -84,7 +84,7 @@
 				;
 		)
 		ZMK_MACRO(__linux4,
-			wait-ms = <20>;
+			wait-ms = <800.0>;
 			tap-ms = <20>;
 			bindings
 				= <&macro_tap &_linux49>
@@ -103,7 +103,7 @@
 				;
 		)
 		ZMK_MACRO(__linux5,
-			wait-ms = <20>;
+			wait-ms = <800.0>;
 			tap-ms = <20>;
 			bindings
 				= <&macro_tap &_linux61>
@@ -122,7 +122,7 @@
 				;
 		)
 		ZMK_MACRO(__linux6,
-			wait-ms = <20>;
+			wait-ms = <800.0>;
 			tap-ms = <20>;
 			bindings
 				= <&macro_tap &_linux73>
@@ -141,7 +141,7 @@
 				;
 		)
 		ZMK_MACRO(__linux7,
-			wait-ms = <20>;
+			wait-ms = <800.0>;
 			tap-ms = <20>;
 			bindings
 				= <&macro_tap &_linux85>
@@ -1155,10 +1155,9 @@
 			wait-ms = <20>;
 			tap-ms = <20>;
 			bindings
-				= <&macro_tap &kp M &kp O &kp M &kp E &kp N &kp T &kp PERIOD &kp S>
-				, <&macro_tap &kp SPACE>
+				= <&macro_tap &kp M &kp O &kp M &kp E &kp N &kp T &kp PERIOD &kp SPACE>
 				;
-		)
+		)		
         };
 
         keymap {
