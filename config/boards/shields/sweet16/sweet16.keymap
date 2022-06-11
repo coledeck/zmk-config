@@ -6,6 +6,227 @@
 
 / {
         macros {
+		ZMK_MACRO(logo,
+			wait-ms = <20>;
+			tap-ms = <20>;
+			bindings
+				= <&macro_tap &_logo0>
+				, <&macro_tap &_logo1>
+				, <&macro_tap &_logo2>
+				, <&macro_tap &_logo3>
+				;
+		)
+		ZMK_MACRO(_logo0,
+			wait-ms = <20>;
+			tap-ms = <20>;
+			bindings
+				= <&macro_tap &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE>
+				, <&macro_tap &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE>
+				, <&macro_tap &kp SPACE &kp SPACE &kp SPACE &kp MINUS &kp GRAVE &kp ENTER &kp SPACE &kp SPACE>
+				, <&macro_tap &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE>
+				, <&macro_tap &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE>
+				, <&macro_tap &kp PERIOD &kp O>
+				, <&macro_press &kp LSHFT>
+				, <&macro_tap &kp EQUAL>
+				, <&macro_release &kp LSHFT>
+				, <&macro_tap &kp GRAVE &kp ENTER &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE>
+				, <&macro_tap &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE>
+				, <&macro_tap &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp GRAVE &kp O &kp O &kp O>
+				, <&macro_tap &kp SLASH &kp ENTER &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE>
+				, <&macro_tap &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE>
+				, <&macro_tap &kp SPACE &kp SPACE &kp GRAVE>
+				, <&macro_press &kp LSHFT>
+				, <&macro_tap &kp EQUAL>
+				, <&macro_release &kp LSHFT>
+				, <&macro_tap &kp O &kp O &kp O &kp O>
+				, <&macro_press &kp LSHFT>
+				, <&macro_tap &kp SEMICOLON>
+				, <&macro_release &kp LSHFT>
+				, <&macro_tap &kp ENTER &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE>
+				, <&macro_tap &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE>
+				, <&macro_tap &kp SPACE &kp GRAVE>
+				, <&macro_press &kp LSHFT>
+				, <&macro_tap &kp EQUAL>
+				, <&macro_release &kp LSHFT>
+				, <&macro_tap &kp O &kp O &kp O &kp O &kp O &kp O>
+				, <&macro_press &kp LSHFT>
+				, <&macro_tap &kp SEMICOLON>
+				, <&macro_release &kp LSHFT>
+				, <&macro_tap &kp ENTER &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE>
+				, <&macro_tap &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE>
+				, <&macro_tap &kp SPACE &kp MINUS>
+				, <&macro_press &kp LSHFT>
+				, <&macro_tap &kp EQUAL>
+				, <&macro_release &kp LSHFT>
+				, <&macro_tap &kp O &kp O &kp O &kp O &kp O &kp O>
+				, <&macro_press &kp LSHFT>
+				, <&macro_tap &kp EQUAL &kp SEMICOLON>
+				, <&macro_release &kp LSHFT>
+				, <&macro_tap &kp ENTER &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE>
+				, <&macro_tap &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp GRAVE>
+				, <&macro_tap &kp SLASH>
+				, <&macro_press &kp LSHFT>
+				, <&macro_tap &kp SEMICOLON>
+				, <&macro_release &kp LSHFT>
+				, <&macro_tap &kp MINUS>
+				, <&macro_press &kp LSHFT>
+				, <&macro_tap &kp SEMICOLON &kp EQUAL &kp EQUAL>
+				, <&macro_release &kp LSHFT>
+				, <&macro_tap &kp O &kp O &kp O &kp O>
+				, <&macro_press &kp LSHFT>
+				, <&macro_tap &kp EQUAL &kp SEMICOLON>
+				;
+		)
+		ZMK_MACRO(_logo1,
+			wait-ms = <20>;
+			tap-ms = <20>;
+			bindings
+				= <&macro_release &kp LSHFT>
+				, <&macro_tap &kp ENTER &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE>
+				, <&macro_tap &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp GRAVE &kp SLASH>
+				, <&macro_tap>
+				, <&macro_press &kp LSHFT>
+				, <&macro_tap &kp EQUAL &kp EQUAL &kp EQUAL &kp EQUAL>
+				, <&macro_release &kp LSHFT>
+				, <&macro_tap &kp SLASH>
+				, <&macro_press &kp LSHFT>
+				, <&macro_tap &kp EQUAL &kp EQUAL &kp EQUAL &kp EQUAL &kp EQUAL &kp EQUAL &kp EQUAL>
+				, <&macro_tap &kp SEMICOLON>
+				, <&macro_release &kp LSHFT>
+				, <&macro_tap &kp ENTER &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE>
+				, <&macro_tap &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp GRAVE &kp SLASH>
+				, <&macro_press &kp LSHFT>
+				, <&macro_tap &kp EQUAL &kp EQUAL &kp EQUAL &kp EQUAL &kp EQUAL &kp EQUAL &kp EQUAL>
+				, <&macro_tap &kp EQUAL &kp EQUAL &kp EQUAL &kp EQUAL &kp EQUAL &kp EQUAL &kp EQUAL &kp SEMICOLON>
+				, <&macro_tap>
+				, <&macro_release &kp LSHFT>
+				, <&macro_tap &kp ENTER &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE>
+				, <&macro_tap &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp GRAVE &kp SLASH>
+				, <&macro_press &kp LSHFT>
+				, <&macro_tap &kp EQUAL &kp EQUAL &kp EQUAL>
+				, <&macro_release &kp LSHFT>
+				, <&macro_tap &kp O &kp O &kp O &kp O &kp O &kp O &kp O>
+				, <&macro_tap &kp O &kp O &kp O &kp O &kp O &kp O &kp SLASH &kp GRAVE>
+				, <&macro_tap &kp ENTER &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE>
+				, <&macro_tap &kp SPACE &kp SPACE &kp PERIOD &kp SLASH &kp O &kp O &kp O &kp S>
+				, <&macro_tap &kp S &kp S &kp S &kp O>
+				, <&macro_press &kp LSHFT>
+				, <&macro_tap &kp EQUAL &kp EQUAL>
+				, <&macro_release &kp LSHFT>
+				, <&macro_tap &kp O &kp S &kp S &kp S &kp S &kp S &kp S>
+				, <&macro_tap &kp O>
+				, <&macro_press &kp LSHFT>
+				, <&macro_tap &kp EQUAL>
+				, <&macro_release &kp LSHFT>
+				, <&macro_tap &kp GRAVE &kp ENTER &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE>
+				, <&macro_tap &kp SPACE &kp SPACE &kp SPACE &kp PERIOD &kp O &kp O &kp S &kp S>
+				, <&macro_tap &kp S &kp S &kp S &kp O &kp MINUS &kp GRAVE &kp GRAVE &kp GRAVE>
+				, <&macro_tap &kp GRAVE &kp SLASH &kp O &kp S &kp S &kp S &kp S &kp S>
+				, <&macro_tap &kp S>
+				, <&macro_press &kp LSHFT>
+				, <&macro_tap &kp EQUAL>
+				, <&macro_release &kp LSHFT>
+				, <&macro_tap &kp GRAVE &kp ENTER &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE>
+				, <&macro_tap &kp SPACE &kp SPACE &kp MINUS &kp O &kp S &kp S &kp S &kp S>
+				, <&macro_tap &kp S &kp S &kp O &kp PERIOD &kp SPACE &kp SPACE>
+				;
+		)
+		ZMK_MACRO(_logo2,
+			wait-ms = <20>;
+			tap-ms = <20>;
+			bindings
+				= <&macro_tap &kp SPACE &kp SPACE &kp SPACE &kp SPACE>
+				, <&macro_press &kp LSHFT>
+				, <&macro_tap &kp SEMICOLON>
+				, <&macro_release &kp LSHFT>
+				, <&macro_tap &kp S &kp S &kp S &kp S &kp S &kp S &kp S>
+				, <&macro_tap &kp O &kp PERIOD &kp ENTER &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE>
+				, <&macro_tap &kp SPACE>
+				, <&macro_press &kp LSHFT>
+				, <&macro_tap &kp SEMICOLON>
+				, <&macro_release &kp LSHFT>
+				, <&macro_tap &kp O &kp S &kp S &kp S &kp S &kp S &kp S>
+				, <&macro_tap &kp S &kp SLASH &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE>
+				, <&macro_tap &kp SPACE &kp SPACE &kp O &kp S &kp S &kp S &kp S &kp O>
+				, <&macro_tap>
+				, <&macro_press &kp LSHFT>
+				, <&macro_tap &kp EQUAL &kp EQUAL &kp EQUAL>
+				, <&macro_release &kp LSHFT>
+				, <&macro_tap &kp PERIOD &kp ENTER &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE>
+				, <&macro_tap &kp SLASH &kp O &kp S &kp S &kp S &kp S &kp S &kp S>
+				, <&macro_tap &kp S &kp S &kp SLASH &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE>
+				, <&macro_tap &kp SPACE &kp SPACE &kp SPACE>
+				, <&macro_press &kp LSHFT>
+				, <&macro_tap &kp EQUAL>
+				, <&macro_release &kp LSHFT>
+				, <&macro_tap &kp S &kp S &kp S &kp S &kp O &kp O &kp O>
+				, <&macro_tap &kp SLASH &kp MINUS &kp ENTER &kp SPACE &kp SPACE &kp SPACE &kp GRAVE &kp SLASH>
+				, <&macro_tap &kp O &kp S &kp S &kp S &kp S &kp S &kp O>
+				, <&macro_press &kp LSHFT>
+				, <&macro_tap &kp EQUAL>
+				, <&macro_release &kp LSHFT>
+				, <&macro_tap &kp SLASH>
+				, <&macro_press &kp LSHFT>
+				, <&macro_tap &kp SEMICOLON>
+				, <&macro_release &kp LSHFT>
+				, <&macro_tap &kp MINUS &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE>
+				, <&macro_tap &kp SPACE &kp SPACE &kp MINUS>
+				, <&macro_press &kp LSHFT>
+				, <&macro_tap &kp SEMICOLON>
+				, <&macro_release &kp LSHFT>
+				, <&macro_tap &kp SLASH>
+				, <&macro_press &kp LSHFT>
+				, <&macro_tap &kp EQUAL>
+				, <&macro_release &kp LSHFT>
+				, <&macro_tap &kp O &kp S &kp S &kp S &kp S &kp O>
+				, <&macro_press &kp LSHFT>
+				, <&macro_tap &kp EQUAL>
+				, <&macro_release &kp LSHFT>
+				, <&macro_tap &kp MINUS &kp ENTER &kp SPACE &kp SPACE &kp GRAVE>
+				, <&macro_press &kp LSHFT>
+				, <&macro_tap &kp EQUAL>
+				, <&macro_release &kp LSHFT>
+				, <&macro_tap &kp S &kp S &kp O>
+				, <&macro_press &kp LSHFT>
+				, <&macro_tap &kp EQUAL &kp SEMICOLON>
+				, <&macro_release &kp LSHFT>
+				, <&macro_tap &kp MINUS &kp GRAVE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE>
+				, <&macro_tap &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE>
+				, <&macro_tap &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp GRAVE &kp PERIOD &kp MINUS &kp SLASH>
+				, <&macro_tap>
+				, <&macro_press &kp LSHFT>
+				, <&macro_tap &kp EQUAL>
+				, <&macro_release &kp LSHFT>
+				, <&macro_tap &kp O &kp S &kp O>
+				, <&macro_press &kp LSHFT>
+				, <&macro_tap &kp SEMICOLON>
+				, <&macro_release &kp LSHFT>
+				, <&macro_tap &kp ENTER &kp SPACE &kp GRAVE>
+				;
+		)
+		ZMK_MACRO(_logo3,
+			wait-ms = <20>;
+			tap-ms = <20>;
+			bindings
+				= <&macro_press &kp LSHFT>
+				, <&macro_tap &kp EQUAL &kp EQUAL &kp SEMICOLON>
+				, <&macro_release &kp LSHFT>
+				, <&macro_tap &kp PERIOD &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE>
+				, <&macro_tap &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE>
+				, <&macro_tap &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE>
+				, <&macro_tap &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp GRAVE &kp MINUS &kp SLASH>
+				, <&macro_tap>
+				, <&macro_press &kp LSHFT>
+				, <&macro_tap &kp EQUAL>
+				, <&macro_release &kp LSHFT>
+				, <&macro_tap &kp SLASH &kp ENTER &kp SPACE &kp PERIOD &kp GRAVE &kp SPACE &kp SPACE>
+				, <&macro_tap &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE>
+				, <&macro_tap &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE>
+				, <&macro_tap &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE>
+				, <&macro_tap &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp GRAVE>
+				, <&macro_tap &kp SLASH &kp ENTER>
+				;
+		)
 		ZMK_MACRO(linux,
 			wait-ms = <20>;
 			tap-ms = <20>;
@@ -1348,12 +1569,12 @@
                 lower_layer {
 // ------------------------
 // | BT1 | BT2 | BT3 | BT4 |
-// |MACRO|     |     |     |
+// |MACRO|LOGO |     |     |
 // |     |     |     |     |
 // |     |     |TOGOU|BTCLR|
                         bindings = <
    &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3
-   &linux       &none        &none        &none 
+   &linux       &logo        &none        &none 
    &none        &none        &none        &none 
    &none        &out OUT_TOG &trans       &bt BT_CLR 
                         >;
