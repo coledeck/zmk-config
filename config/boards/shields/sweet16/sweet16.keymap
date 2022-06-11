@@ -7,8 +7,8 @@
 / {
         macros {
 		ZMK_MACRO(tux,
-			wait-ms = <5>;
-			tap-ms = <5>;
+			wait-ms = <1>;
+			tap-ms = <1>;
 			bindings
 				= <&macro_tap &_tux0>
 				, <&macro_tap &_tux1>
@@ -19,8 +19,8 @@
 				;
 		)
 		ZMK_MACRO(_tux0,
-			wait-ms = <5>;
-			tap-ms = <5>;
+			wait-ms = <1>;
+			tap-ms = <1>;
 			bindings
 				= <&macro_tap &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE>
 				, <&macro_tap &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE>
@@ -58,8 +58,8 @@
 				;
 		)
 		ZMK_MACRO(_tux1,
-			wait-ms = <5>;
-			tap-ms = <5>;
+			wait-ms = <1>;
+			tap-ms = <1>;
 			bindings
 				= <&macro_tap &kp SPACE &kp N8 &kp N8 &kp SPACE &kp SPACE &kp N8 &kp N8 &kp N8>
 				, <&macro_tap &kp N8 &kp N8 &kp ENTER &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE>
@@ -115,8 +115,8 @@
 				;
 		)
 		ZMK_MACRO(_tux2,
-			wait-ms = <5>;
-			tap-ms = <5>;
+			wait-ms = <1>;
+			tap-ms = <1>;
 			bindings
 				= <&macro_tap &kp SPACE &kp SPACE &kp GRAVE &kp N8>
 				, <&macro_press &kp LSHFT>
@@ -174,8 +174,8 @@
 				;
 		)
 		ZMK_MACRO(_tux3,
-			wait-ms = <5>;
-			tap-ms = <5>;
+			wait-ms = <1>;
+			tap-ms = <1>;
 			bindings
 				= <&macro_tap &kp ENTER &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp N8>
 				, <&macro_tap &kp N8 &kp N8>
@@ -235,8 +235,8 @@
 				;
 		)
 		ZMK_MACRO(_tux4,
-			wait-ms = <5>;
-			tap-ms = <5>;
+			wait-ms = <1>;
+			tap-ms = <1>;
 			bindings
 				= <&macro_tap &kp ENTER &kp SPACE &kp SPACE &kp SPACE &kp PERIOD>
 				, <&macro_press &kp LSHFT>
@@ -300,8 +300,8 @@
 				;
 		)
 		ZMK_MACRO(_tux5,
-			wait-ms = <5>;
-			tap-ms = <5>;
+			wait-ms = <1>;
+			tap-ms = <1>;
 			bindings
 				= <&macro_tap &kp SEMICOLON &kp SEMICOLON &kp SEMICOLON &kp SEMICOLON &kp SEMICOLON &kp SEMICOLON &kp SEMICOLON &kp SEMICOLON>
 				, <&macro_tap &kp SEMICOLON>
@@ -354,7 +354,7 @@
 				, <&macro_release &kp LSHFT>
 				, <&macro_tap &kp SINGLE_QUOTE &kp GRAVE &kp ENTER>
 				;
-		)
+		)		
 		ZMK_MACRO(logo,
 			wait-ms = <5>;
 			tap-ms = <5>;
@@ -577,421 +577,73 @@
 				;
 		)
 		ZMK_MACRO(linux,
-			wait-ms = <20>;
-			tap-ms = <20>;
+			wait-ms = <5>;
+			tap-ms = <5>;
 			bindings
 				= <&macro_tap &_linux0>
+				, <&macro_tap &_linux1>
+				, <&macro_tap &_linux2>
+				, <&macro_tap &_linux3>
+				, <&macro_tap &_linux4>
+				, <&macro_tap &_linux5>
+				, <&macro_tap &_linux6>
 				, <&macro_tap &__linux1>
 				;
 		)
 		ZMK_MACRO(__linux1,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &_linux1>
-				, <&macro_tap &_linux2>
-				, <&macro_tap &_linux3>
-				, <&macro_tap &__linux2>
-				;
-		)
-		ZMK_MACRO(__linux2,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &_linux4>
-				, <&macro_tap &_linux5>
-				, <&macro_tap &_linux6>
-				, <&macro_tap &__linux3>
-				;
-		)
-		ZMK_MACRO(__linux3,
-			wait-ms = <20>;
-			tap-ms = <20>;
+			wait-ms = <5>;
+			tap-ms = <5>;
 			bindings
 				= <&macro_tap &_linux7>
-				, <&macro_tap &_linux8>
-				, <&macro_tap &_linux9>
-				, <&macro_tap &__linux4>
-				;
-		)
-		ZMK_MACRO(__linux4,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &_linux10>
-				, <&macro_tap &_linux11>
-				, <&macro_tap &_linux12>
-				, <&macro_tap &__linux5>
-				;
-		)
-		ZMK_MACRO(__linux5,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &_linux13>
-				, <&macro_tap &_linux14>
-				, <&macro_tap &_linux15>
-				, <&macro_tap &__linux6>
-				;
-		)
-		ZMK_MACRO(__linux6,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &_linux16>
-				, <&macro_tap &_linux17>
-				, <&macro_tap &_linux18>
-				, <&macro_tap &__linux7>
-				;
-		)
-		ZMK_MACRO(__linux7,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &_linux19>
-				, <&macro_tap &_linux20>
-				, <&macro_tap &_linux21>
-				, <&macro_tap &__linux8>
-				;
-		)
-		ZMK_MACRO(__linux8,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &_linux22>
-				, <&macro_tap &_linux23>
-				, <&macro_tap &_linux24>
-				, <&macro_tap &__linux9>
-				;
-		)
-		ZMK_MACRO(__linux9,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &_linux25>
-				, <&macro_tap &_linux26>
-				, <&macro_tap &_linux27>
-				, <&macro_tap &__linux10>
-				;
-		)
-		ZMK_MACRO(__linux10,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &_linux28>
-				, <&macro_tap &_linux29>
-				, <&macro_tap &_linux30>
-				, <&macro_tap &__linux11>
-				;
-		)
-		ZMK_MACRO(__linux11,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &_linux31>
-				, <&macro_tap &_linux32>
-				, <&macro_tap &_linux33>
-				, <&macro_tap &__linux12>
-				;
-		)
-		ZMK_MACRO(__linux12,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &_linux34>
-				, <&macro_tap &_linux35>
-				, <&macro_tap &_linux36>
-				, <&macro_tap &__linux13>
-				;
-		)
-		ZMK_MACRO(__linux13,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &_linux37>
-				, <&macro_tap &_linux38>
-				, <&macro_tap &_linux39>
-				, <&macro_tap &__linux14>
-				;
-		)
-		ZMK_MACRO(__linux14,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &_linux40>
-				, <&macro_tap &_linux41>
-				, <&macro_tap &_linux42>
-				, <&macro_tap &__linux15>
-				;
-		)
-		ZMK_MACRO(__linux15,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &_linux43>
-				, <&macro_tap &_linux44>
-				, <&macro_tap &_linux45>
-				, <&macro_tap &__linux16>
-				;
-		)
-		ZMK_MACRO(__linux16,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &_linux46>
-				, <&macro_tap &_linux47>
-				, <&macro_tap &_linux48>
-				, <&macro_tap &__linux17>
-				;
-		)
-		ZMK_MACRO(__linux17,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &_linux49>
-				, <&macro_tap &_linux50>
-				, <&macro_tap &_linux51>
-				, <&macro_tap &__linux18>
-				;
-		)
-		ZMK_MACRO(__linux18,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &_linux52>
-				, <&macro_tap &_linux53>
-				, <&macro_tap &_linux54>
-				, <&macro_tap &__linux19>
-				;
-		)
-		ZMK_MACRO(__linux19,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &_linux55>
-				, <&macro_tap &_linux56>
-				, <&macro_tap &_linux57>
-				, <&macro_tap &__linux20>
-				;
-		)
-		ZMK_MACRO(__linux20,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &_linux58>
-				, <&macro_tap &_linux59>
-				, <&macro_tap &_linux60>
-				, <&macro_tap &__linux21>
-				;
-		)
-		ZMK_MACRO(__linux21,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &_linux61>
-				, <&macro_tap &_linux62>
-				, <&macro_tap &_linux63>
-				, <&macro_tap &__linux22>
-				;
-		)
-		ZMK_MACRO(__linux22,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &_linux64>
-				, <&macro_tap &_linux65>
-				, <&macro_tap &_linux66>
-				, <&macro_tap &__linux23>
-				;
-		)
-		ZMK_MACRO(__linux23,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &_linux67>
-				, <&macro_tap &_linux68>
-				, <&macro_tap &_linux69>
-				, <&macro_tap &__linux24>
-				;
-		)
-		ZMK_MACRO(__linux24,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &_linux70>
-				, <&macro_tap &_linux71>
-				, <&macro_tap &_linux72>
-				, <&macro_tap &__linux25>
-				;
-		)
-		ZMK_MACRO(__linux25,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &_linux73>
-				, <&macro_tap &_linux74>
-				, <&macro_tap &_linux75>
-				, <&macro_tap &__linux26>
-				;
-		)
-		ZMK_MACRO(__linux26,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &_linux76>
-				, <&macro_tap &_linux77>
-				, <&macro_tap &_linux78>
-				, <&macro_tap &__linux27>
-				;
-		)
-		ZMK_MACRO(__linux27,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &_linux79>
-				, <&macro_tap &_linux80>
-				, <&macro_tap &_linux81>
-				, <&macro_tap &__linux28>
-				;
-		)
-		ZMK_MACRO(__linux28,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &_linux82>
-				, <&macro_tap &_linux83>
-				, <&macro_tap &_linux84>
-				, <&macro_tap &__linux29>
-				;
-		)
-		ZMK_MACRO(__linux29,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &_linux85>
-				, <&macro_tap &_linux86>
-				, <&macro_tap &_linux87>
-				, <&macro_tap &__linux30>
-				;
-		)
-		ZMK_MACRO(__linux30,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &_linux88>
-				, <&macro_tap &_linux89>
-				, <&macro_tap &_linux90>
-				, <&macro_tap &__linux31>
-				;
-		)
-		ZMK_MACRO(__linux31,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &_linux91>
-				, <&macro_tap &_linux92>
-				, <&macro_tap &_linux93>
 				;
 		)
 		ZMK_MACRO(_linux0,
-			wait-ms = <20>;
-			tap-ms = <20>;
+			wait-ms = <5>;
+			tap-ms = <5>;
 			bindings
 				= <&macro_press &kp LSHFT>
 				, <&macro_tap &kp I>
 				, <&macro_release &kp LSHFT>
 				, <&macro_tap &kp SINGLE_QUOTE &kp D &kp SPACE &kp J &kp U &kp S &kp T>
 				, <&macro_tap &kp SPACE &kp L &kp I &kp K &kp E &kp SPACE &kp T &kp O>
-				, <&macro_tap &kp SPACE &kp I>
-				;
-		)
-		ZMK_MACRO(_linux1,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp N &kp T &kp E &kp R &kp J &kp E &kp C &kp T>
-				, <&macro_tap &kp SPACE &kp F &kp O &kp R &kp SPACE &kp A &kp SPACE &kp M>
-				, <&macro_tap &kp O &kp M &kp E &kp N>
-				;
-		)
-		ZMK_MACRO(_linux2,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp T &kp PERIOD &kp SPACE>
+				, <&macro_tap &kp SPACE &kp I &kp N &kp T &kp E &kp R &kp J &kp E>
+				, <&macro_tap &kp C &kp T &kp SPACE &kp F &kp O &kp R &kp SPACE &kp A>
+				, <&macro_tap &kp SPACE &kp M &kp O &kp M &kp E &kp N &kp T &kp PERIOD>
+				, <&macro_tap &kp SPACE>
 				, <&macro_press &kp LSHFT>
 				, <&macro_tap &kp W>
 				, <&macro_release &kp LSHFT>
 				, <&macro_tap &kp H &kp A &kp T &kp SPACE &kp Y &kp O &kp U>
-				, <&macro_tap &kp SINGLE_QUOTE &kp R &kp E &kp SPACE &kp R &kp E &kp F>
-				;
-		)
-		ZMK_MACRO(_linux3,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp E &kp R &kp I &kp N &kp G &kp SPACE &kp T &kp O>
-				, <&macro_tap &kp SPACE &kp A &kp S &kp SPACE>
+				, <&macro_tap &kp SINGLE_QUOTE &kp R &kp E &kp SPACE &kp R &kp E &kp F &kp E>
+				, <&macro_tap &kp R &kp I &kp N &kp G &kp SPACE &kp T &kp O &kp SPACE>
+				, <&macro_tap &kp A &kp S &kp SPACE>
 				, <&macro_press &kp LSHFT>
 				, <&macro_tap &kp L>
 				, <&macro_release &kp LSHFT>
-				, <&macro_tap &kp I &kp N &kp U &kp X &kp COMMA>
-				;
-		)
-		ZMK_MACRO(_linux4,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp SPACE &kp I &kp S &kp SPACE &kp I &kp N &kp SPACE &kp F>
-				, <&macro_tap &kp A &kp C &kp T &kp COMMA &kp SPACE>
+				, <&macro_tap &kp I &kp N &kp U &kp X &kp COMMA &kp SPACE &kp I>
+				, <&macro_tap &kp S &kp SPACE &kp I &kp N &kp SPACE &kp F &kp A &kp C>
+				, <&macro_tap &kp T &kp COMMA &kp SPACE>
 				, <&macro_press &kp LSHFT>
 				, <&macro_tap &kp G &kp N &kp U>
 				, <&macro_release &kp LSHFT>
 				, <&macro_tap &kp SLASH>
 				, <&macro_press &kp LSHFT>
-				, <&macro_tap>
-				;
-		)
-		ZMK_MACRO(_linux5,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp L>
+				, <&macro_tap &kp L>
 				, <&macro_release &kp LSHFT>
 				, <&macro_tap &kp I &kp N &kp U &kp X &kp COMMA &kp SPACE &kp O>
 				, <&macro_tap &kp R &kp SPACE &kp A &kp S &kp SPACE>
 				, <&macro_press &kp LSHFT>
 				, <&macro_tap &kp I>
 				, <&macro_release &kp LSHFT>
-				, <&macro_tap &kp SINGLE_QUOTE &kp V &kp E>
-				;
-		)
-		ZMK_MACRO(_linux6,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp SPACE &kp R &kp E &kp C &kp E &kp N &kp T &kp L>
-				, <&macro_tap &kp Y &kp SPACE &kp T &kp A &kp K &kp E &kp N &kp SPACE>
-				, <&macro_tap &kp T &kp O &kp SPACE &kp C>
-				;
-		)
-		ZMK_MACRO(_linux7,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp A &kp L &kp L &kp I &kp N &kp G &kp SPACE &kp I>
+				, <&macro_tap &kp SINGLE_QUOTE &kp V &kp E &kp SPACE &kp R &kp E &kp C>
+				, <&macro_tap &kp E &kp N &kp T &kp L &kp Y &kp SPACE &kp T &kp A>
+				, <&macro_tap &kp K &kp E &kp N &kp SPACE &kp T &kp O &kp SPACE &kp C>
+				, <&macro_tap &kp A &kp L &kp L &kp I &kp N &kp G &kp SPACE &kp I>
 				, <&macro_tap &kp T &kp COMMA &kp SPACE>
 				, <&macro_press &kp LSHFT>
 				, <&macro_tap &kp G &kp N &kp U>
 				, <&macro_release &kp LSHFT>
-				, <&macro_tap &kp SPACE &kp P &kp L &kp U>
-				;
-		)
-		ZMK_MACRO(_linux8,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp S &kp SPACE>
+				, <&macro_tap &kp SPACE &kp P &kp L &kp U &kp S &kp SPACE>
 				, <&macro_press &kp LSHFT>
 				, <&macro_tap &kp L>
 				, <&macro_release &kp LSHFT>
@@ -999,122 +651,58 @@
 				, <&macro_press &kp LSHFT>
 				, <&macro_tap &kp L>
 				, <&macro_release &kp LSHFT>
-				, <&macro_tap &kp I &kp N &kp U &kp X &kp SPACE &kp I>
+				, <&macro_tap &kp I &kp N &kp U &kp X &kp SPACE &kp I &kp S>
+				, <&macro_tap &kp SPACE &kp N &kp O &kp T &kp SPACE &kp A &kp N>
 				;
 		)
-		ZMK_MACRO(_linux9,
-			wait-ms = <20>;
-			tap-ms = <20>;
+		ZMK_MACRO(_linux1,
+			wait-ms = <5>;
+			tap-ms = <5>;
 			bindings
-				= <&macro_tap &kp S &kp SPACE &kp N &kp O &kp T &kp SPACE &kp A &kp N>
-				, <&macro_tap &kp SPACE &kp O &kp P &kp E &kp R &kp A &kp T &kp I>
-				, <&macro_tap &kp N &kp G &kp SPACE &kp S>
-				;
-		)
-		ZMK_MACRO(_linux10,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp Y &kp S &kp T &kp E &kp M &kp SPACE &kp U &kp N>
-				, <&macro_tap &kp T &kp O &kp SPACE &kp I &kp T &kp S &kp E &kp L>
-				, <&macro_tap &kp F &kp COMMA &kp SPACE &kp B>
-				;
-		)
-		ZMK_MACRO(_linux11,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp U &kp T &kp SPACE &kp R &kp A &kp T &kp H &kp E>
+				= <&macro_tap &kp SPACE &kp O &kp P &kp E &kp R &kp A &kp T &kp I>
+				, <&macro_tap &kp N &kp G &kp SPACE &kp S &kp Y &kp S &kp T &kp E>
+				, <&macro_tap &kp M &kp SPACE &kp U &kp N &kp T &kp O &kp SPACE &kp I>
+				, <&macro_tap &kp T &kp S &kp E &kp L &kp F &kp COMMA &kp SPACE &kp B>
+				, <&macro_tap &kp U &kp T &kp SPACE &kp R &kp A &kp T &kp H &kp E>
 				, <&macro_tap &kp R &kp SPACE &kp A &kp N &kp O &kp T &kp H &kp E>
-				, <&macro_tap &kp R &kp SPACE &kp F &kp R>
-				;
-		)
-		ZMK_MACRO(_linux12,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp E &kp E &kp SPACE &kp C &kp O &kp M &kp P &kp O>
-				, <&macro_tap &kp N &kp E &kp N &kp T &kp SPACE &kp O &kp F &kp SPACE>
-				, <&macro_tap &kp A &kp SPACE &kp F &kp U>
-				;
-		)
-		ZMK_MACRO(_linux13,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp L &kp L &kp Y &kp SPACE &kp F &kp U &kp N &kp C>
+				, <&macro_tap &kp R &kp SPACE &kp F &kp R &kp E &kp E &kp SPACE &kp C>
+				, <&macro_tap &kp O &kp M &kp P &kp O &kp N &kp E &kp N &kp T>
+				, <&macro_tap &kp SPACE &kp O &kp F &kp SPACE &kp A &kp SPACE &kp F &kp U>
+				, <&macro_tap &kp L &kp L &kp Y &kp SPACE &kp F &kp U &kp N &kp C>
 				, <&macro_tap &kp T &kp I &kp O &kp N &kp I &kp N &kp G &kp SPACE>
 				, <&macro_tap>
 				, <&macro_press &kp LSHFT>
 				, <&macro_tap &kp G &kp N &kp U>
-				;
-		)
-		ZMK_MACRO(_linux14,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_release &kp LSHFT>
+				, <&macro_release &kp LSHFT>
 				, <&macro_tap &kp SPACE &kp S &kp Y &kp S &kp T &kp E &kp M>
 				, <&macro_tap &kp SPACE &kp M &kp A &kp D &kp E &kp SPACE &kp U &kp S>
-				, <&macro_tap &kp E &kp F &kp U &kp L>
-				;
-		)
-		ZMK_MACRO(_linux15,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp SPACE &kp B &kp Y &kp SPACE &kp T &kp H &kp E &kp SPACE>
-				, <&macro_tap>
+				, <&macro_tap &kp E &kp F &kp U &kp L &kp SPACE &kp B &kp Y &kp SPACE>
+				, <&macro_tap &kp T &kp H &kp E &kp SPACE>
 				, <&macro_press &kp LSHFT>
 				, <&macro_tap &kp G &kp N &kp U>
 				, <&macro_release &kp LSHFT>
 				, <&macro_tap &kp SPACE &kp C &kp O &kp R &kp E &kp L &kp I>
-				;
-		)
-		ZMK_MACRO(_linux16,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp B &kp S &kp COMMA &kp SPACE &kp S &kp H &kp E &kp L>
+				, <&macro_tap &kp B &kp S &kp COMMA &kp SPACE &kp S &kp H &kp E &kp L>
 				, <&macro_tap &kp L &kp SPACE &kp U &kp T &kp I &kp L &kp I &kp T>
-				, <&macro_tap &kp I &kp E &kp S &kp SPACE>
-				;
-		)
-		ZMK_MACRO(_linux17,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp A &kp N &kp D &kp SPACE &kp V &kp I &kp T &kp A>
-				, <&macro_tap &kp L &kp SPACE &kp S &kp Y &kp S &kp T &kp E &kp M>
-				, <&macro_tap &kp SPACE &kp C &kp O &kp M>
-				;
-		)
-		ZMK_MACRO(_linux18,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp P &kp O &kp N &kp E &kp N &kp T &kp S &kp SPACE>
+				, <&macro_tap &kp I &kp E &kp S &kp SPACE &kp A &kp N &kp D &kp SPACE>
+				, <&macro_tap &kp V &kp I &kp T &kp A &kp L &kp SPACE &kp S &kp Y>
+				, <&macro_tap &kp S &kp T &kp E &kp M &kp SPACE &kp C &kp O &kp M>
+				, <&macro_tap &kp P &kp O &kp N &kp E &kp N &kp T &kp S &kp SPACE>
 				, <&macro_tap &kp C &kp O &kp M &kp P &kp R &kp I &kp S &kp I>
-				, <&macro_tap &kp N &kp G &kp SPACE &kp A>
 				;
 		)
-		ZMK_MACRO(_linux19,
-			wait-ms = <20>;
-			tap-ms = <20>;
+		ZMK_MACRO(_linux2,
+			wait-ms = <5>;
+			tap-ms = <5>;
 			bindings
-				= <&macro_tap &kp SPACE &kp F &kp U &kp L &kp L &kp SPACE>
+				= <&macro_tap &kp N &kp G &kp SPACE &kp A &kp SPACE &kp F &kp U &kp L>
+				, <&macro_tap &kp L &kp SPACE>
 				, <&macro_press &kp LSHFT>
 				, <&macro_tap &kp O &kp S>
 				, <&macro_release &kp LSHFT>
 				, <&macro_tap &kp SPACE &kp A &kp S &kp SPACE &kp D &kp E &kp F>
-				, <&macro_tap &kp I &kp N &kp E>
-				;
-		)
-		ZMK_MACRO(_linux20,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp D &kp SPACE &kp B &kp Y &kp SPACE>
+				, <&macro_tap &kp I &kp N &kp E &kp D &kp SPACE &kp B &kp Y &kp SPACE>
+				, <&macro_tap>
 				, <&macro_press &kp LSHFT>
 				, <&macro_tap &kp P &kp O &kp S &kp I &kp X>
 				, <&macro_release &kp LSHFT>
@@ -1122,166 +710,69 @@
 				, <&macro_press &kp LSHFT>
 				, <&macro_tap &kp M>
 				, <&macro_release &kp LSHFT>
-				, <&macro_tap &kp A>
-				;
-		)
-		ZMK_MACRO(_linux21,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp N &kp Y &kp SPACE &kp C &kp O &kp M &kp P &kp U>
-				, <&macro_tap &kp T &kp E &kp R &kp SPACE &kp U &kp S &kp E &kp R>
-				, <&macro_tap &kp S &kp SPACE &kp R &kp U>
-				;
-		)
-		ZMK_MACRO(_linux22,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp N &kp SPACE &kp A &kp SPACE &kp M &kp O &kp D &kp I>
-				, <&macro_tap &kp F &kp I &kp E &kp D &kp SPACE &kp V &kp E &kp R>
-				, <&macro_tap &kp S &kp I &kp O &kp N>
-				;
-		)
-		ZMK_MACRO(_linux23,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp SPACE &kp O &kp F &kp SPACE &kp T &kp H &kp E &kp SPACE>
-				, <&macro_tap>
+				, <&macro_tap &kp A &kp N &kp Y &kp SPACE &kp C &kp O &kp M>
+				, <&macro_tap &kp P &kp U &kp T &kp E &kp R &kp SPACE &kp U &kp S>
+				, <&macro_tap &kp E &kp R &kp S &kp SPACE &kp R &kp U &kp N &kp SPACE>
+				, <&macro_tap &kp A &kp SPACE &kp M &kp O &kp D &kp I &kp F &kp I>
+				, <&macro_tap &kp E &kp D &kp SPACE &kp V &kp E &kp R &kp S &kp I>
+				, <&macro_tap &kp O &kp N &kp SPACE &kp O &kp F &kp SPACE &kp T &kp H>
+				, <&macro_tap &kp E &kp SPACE>
 				, <&macro_press &kp LSHFT>
 				, <&macro_tap &kp G &kp N &kp U>
 				, <&macro_release &kp LSHFT>
 				, <&macro_tap &kp SPACE &kp S &kp Y &kp S &kp T &kp E &kp M>
-				;
-		)
-		ZMK_MACRO(_linux24,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp SPACE &kp E &kp V &kp E &kp R &kp Y &kp SPACE &kp D>
+				, <&macro_tap &kp SPACE &kp E &kp V &kp E &kp R &kp Y &kp SPACE &kp D>
 				, <&macro_tap &kp A &kp Y &kp COMMA &kp SPACE &kp W &kp I &kp T &kp H>
-				, <&macro_tap &kp O &kp U &kp T &kp SPACE>
-				;
-		)
-		ZMK_MACRO(_linux25,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp R &kp E &kp A &kp L &kp I &kp Z &kp I &kp N>
-				, <&macro_tap &kp G &kp SPACE &kp I &kp T &kp PERIOD &kp SPACE>
+				, <&macro_tap &kp O &kp U &kp T &kp SPACE &kp R &kp E &kp A &kp L>
+				, <&macro_tap &kp I &kp Z &kp I &kp N &kp G &kp SPACE &kp I &kp T>
+				, <&macro_tap &kp PERIOD &kp SPACE>
 				, <&macro_press &kp LSHFT>
 				, <&macro_tap &kp T>
 				, <&macro_release &kp LSHFT>
-				, <&macro_tap &kp H &kp R &kp O>
-				;
-		)
-		ZMK_MACRO(_linux26,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp U &kp G &kp H &kp SPACE &kp A &kp SPACE &kp P &kp E>
-				, <&macro_tap &kp C &kp U &kp L &kp I &kp A &kp R &kp SPACE &kp T>
-				, <&macro_tap &kp U &kp R &kp N &kp SPACE>
-				;
-		)
-		ZMK_MACRO(_linux27,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp O &kp F &kp SPACE &kp E &kp V &kp E &kp N &kp T>
+				, <&macro_tap &kp H &kp R &kp O &kp U &kp G &kp H &kp SPACE>
+				, <&macro_tap &kp A &kp SPACE &kp P &kp E &kp C &kp U &kp L &kp I>
+				, <&macro_tap &kp A &kp R &kp SPACE &kp T &kp U &kp R &kp N &kp SPACE>
+				, <&macro_tap &kp O &kp F &kp SPACE &kp E &kp V &kp E &kp N &kp T>
 				, <&macro_tap &kp S &kp COMMA &kp SPACE &kp T &kp H &kp E &kp SPACE &kp V>
-				, <&macro_tap &kp E &kp R &kp S &kp I>
+				, <&macro_tap &kp E &kp R &kp S &kp I &kp O &kp N &kp SPACE &kp O>
 				;
 		)
-		ZMK_MACRO(_linux28,
-			wait-ms = <20>;
-			tap-ms = <20>;
+		ZMK_MACRO(_linux3,
+			wait-ms = <5>;
+			tap-ms = <5>;
 			bindings
-				= <&macro_tap &kp O &kp N &kp SPACE &kp O &kp F &kp SPACE>
+				= <&macro_tap &kp F &kp SPACE>
 				, <&macro_press &kp LSHFT>
 				, <&macro_tap &kp G &kp N &kp U>
 				, <&macro_release &kp LSHFT>
 				, <&macro_tap &kp SPACE &kp W &kp H &kp I &kp C &kp H &kp SPACE>
-				, <&macro_tap &kp I &kp S>
-				;
-		)
-		ZMK_MACRO(_linux29,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp SPACE &kp W &kp I &kp D &kp E &kp L &kp Y &kp SPACE>
-				, <&macro_tap &kp U &kp S &kp E &kp D &kp SPACE &kp T &kp O &kp D>
-				, <&macro_tap &kp A &kp Y &kp SPACE &kp I>
-				;
-		)
-		ZMK_MACRO(_linux30,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp S &kp SPACE &kp O &kp F &kp T &kp E &kp N &kp SPACE>
-				, <&macro_tap &kp C &kp A &kp L &kp L &kp E &kp D &kp SPACE>
+				, <&macro_tap &kp I &kp S &kp SPACE &kp W &kp I &kp D &kp E &kp L>
+				, <&macro_tap &kp Y &kp SPACE &kp U &kp S &kp E &kp D &kp SPACE &kp T>
+				, <&macro_tap &kp O &kp D &kp A &kp Y &kp SPACE &kp I &kp S &kp SPACE>
+				, <&macro_tap &kp O &kp F &kp T &kp E &kp N &kp SPACE &kp C &kp A>
+				, <&macro_tap &kp L &kp L &kp E &kp D &kp SPACE>
 				, <&macro_press &kp LSHFT>
 				, <&macro_tap &kp L>
 				, <&macro_release &kp LSHFT>
-				, <&macro_tap &kp I &kp N>
-				;
-		)
-		ZMK_MACRO(_linux31,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp U &kp X &kp COMMA &kp SPACE &kp A &kp N &kp D &kp SPACE>
-				, <&macro_tap &kp M &kp A &kp N &kp Y &kp SPACE &kp O &kp F &kp SPACE>
-				, <&macro_tap &kp I &kp T &kp S &kp SPACE>
-				;
-		)
-		ZMK_MACRO(_linux32,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp U &kp S &kp E &kp R &kp S &kp SPACE &kp A &kp R>
-				, <&macro_tap &kp E &kp SPACE &kp N &kp O &kp T &kp SPACE &kp A &kp W>
-				, <&macro_tap &kp A &kp R &kp E &kp SPACE>
-				;
-		)
-		ZMK_MACRO(_linux33,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp T &kp H &kp A &kp T &kp SPACE &kp I &kp T &kp SPACE>
-				, <&macro_tap &kp I &kp S &kp SPACE &kp B &kp A &kp S &kp I &kp C>
-				, <&macro_tap &kp A &kp L &kp L &kp Y>
-				;
-		)
-		ZMK_MACRO(_linux34,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp SPACE &kp T &kp H &kp E &kp SPACE>
+				, <&macro_tap &kp I &kp N &kp U &kp X &kp COMMA &kp SPACE &kp A>
+				, <&macro_tap &kp N &kp D &kp SPACE &kp M &kp A &kp N &kp Y &kp SPACE>
+				, <&macro_tap &kp O &kp F &kp SPACE &kp I &kp T &kp S &kp SPACE &kp U>
+				, <&macro_tap &kp S &kp E &kp R &kp S &kp SPACE &kp A &kp R &kp E>
+				, <&macro_tap &kp SPACE &kp N &kp O &kp T &kp SPACE &kp A &kp W &kp A>
+				, <&macro_tap &kp R &kp E &kp SPACE &kp T &kp H &kp A &kp T &kp SPACE>
+				, <&macro_tap &kp I &kp T &kp SPACE &kp I &kp S &kp SPACE &kp B &kp A>
+				, <&macro_tap &kp S &kp I &kp C &kp A &kp L &kp L &kp Y &kp SPACE>
+				, <&macro_tap &kp T &kp H &kp E &kp SPACE>
 				, <&macro_press &kp LSHFT>
 				, <&macro_tap &kp G &kp N &kp U>
 				, <&macro_release &kp LSHFT>
 				, <&macro_tap &kp SPACE &kp S &kp Y &kp S &kp T &kp E &kp M>
-				, <&macro_tap &kp COMMA &kp SPACE &kp D>
-				;
-		)
-		ZMK_MACRO(_linux35,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp E &kp V &kp E &kp L &kp O &kp P &kp E &kp D>
-				, <&macro_tap &kp SPACE &kp B &kp Y &kp SPACE &kp T &kp H &kp E &kp SPACE>
-				, <&macro_tap>
+				, <&macro_tap &kp COMMA &kp SPACE &kp D &kp E &kp V &kp E &kp L &kp O>
+				, <&macro_tap &kp P &kp E &kp D &kp SPACE &kp B &kp Y &kp SPACE &kp T>
+				, <&macro_tap &kp H &kp E &kp SPACE>
 				, <&macro_press &kp LSHFT>
 				, <&macro_tap &kp G &kp N &kp U>
-				;
-		)
-		ZMK_MACRO(_linux36,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_release &kp LSHFT>
+				, <&macro_release &kp LSHFT>
 				, <&macro_tap &kp SPACE>
 				, <&macro_press &kp LSHFT>
 				, <&macro_tap &kp P>
@@ -1291,253 +782,110 @@
 				, <&macro_press &kp LSHFT>
 				, <&macro_tap &kp T>
 				, <&macro_release &kp LSHFT>
-				, <&macro_tap &kp H &kp E>
+				, <&macro_tap &kp H &kp E &kp R &kp E &kp SPACE &kp R &kp E>
+				, <&macro_tap &kp A &kp L &kp L &kp Y &kp SPACE &kp I &kp S>
 				;
 		)
-		ZMK_MACRO(_linux37,
-			wait-ms = <20>;
-			tap-ms = <20>;
+		ZMK_MACRO(_linux4,
+			wait-ms = <5>;
+			tap-ms = <5>;
 			bindings
-				= <&macro_tap &kp R &kp E &kp SPACE &kp R &kp E &kp A &kp L &kp L>
-				, <&macro_tap &kp Y &kp SPACE &kp I &kp S &kp SPACE &kp A &kp SPACE>
+				= <&macro_tap &kp SPACE &kp A &kp SPACE>
 				, <&macro_press &kp LSHFT>
 				, <&macro_tap &kp L>
 				, <&macro_release &kp LSHFT>
-				, <&macro_tap &kp I &kp N>
-				;
-		)
-		ZMK_MACRO(_linux38,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp U &kp X &kp COMMA &kp SPACE &kp A &kp N &kp D &kp SPACE>
-				, <&macro_tap &kp T &kp H &kp E &kp S &kp E &kp SPACE &kp P &kp E>
-				, <&macro_tap &kp O &kp P &kp L &kp E>
-				;
-		)
-		ZMK_MACRO(_linux39,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp SPACE &kp A &kp R &kp E &kp SPACE &kp U &kp S &kp I>
-				, <&macro_tap &kp N &kp G &kp SPACE &kp I &kp T &kp COMMA &kp SPACE &kp B>
-				, <&macro_tap &kp U &kp T &kp SPACE &kp I>
-				;
-		)
-		ZMK_MACRO(_linux40,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp T &kp SPACE &kp I &kp S &kp SPACE &kp J &kp U &kp S>
-				, <&macro_tap &kp T &kp SPACE &kp A &kp SPACE &kp P &kp A &kp R &kp T>
-				, <&macro_tap &kp SPACE &kp O &kp F &kp SPACE>
-				;
-		)
-		ZMK_MACRO(_linux41,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp T &kp H &kp E &kp SPACE &kp S &kp Y &kp S &kp T>
-				, <&macro_tap &kp E &kp M &kp SPACE &kp T &kp H &kp E &kp Y &kp SPACE>
-				, <&macro_tap &kp U &kp S &kp E &kp PERIOD>
-				;
-		)
-		ZMK_MACRO(_linux42,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp SPACE>
+				, <&macro_tap &kp I &kp N &kp U &kp X &kp COMMA &kp SPACE &kp A>
+				, <&macro_tap &kp N &kp D &kp SPACE &kp T &kp H &kp E &kp S &kp E>
+				, <&macro_tap &kp SPACE &kp P &kp E &kp O &kp P &kp L &kp E &kp SPACE>
+				, <&macro_tap &kp A &kp R &kp E &kp SPACE &kp U &kp S &kp I &kp N>
+				, <&macro_tap &kp G &kp SPACE &kp I &kp T &kp COMMA &kp SPACE &kp B &kp U>
+				, <&macro_tap &kp T &kp SPACE &kp I &kp T &kp SPACE &kp I &kp S &kp SPACE>
+				, <&macro_tap &kp J &kp U &kp S &kp T &kp SPACE &kp A &kp SPACE &kp P>
+				, <&macro_tap &kp A &kp R &kp T &kp SPACE &kp O &kp F &kp SPACE &kp T>
+				, <&macro_tap &kp H &kp E &kp SPACE &kp S &kp Y &kp S &kp T &kp E>
+				, <&macro_tap &kp M &kp SPACE &kp T &kp H &kp E &kp Y &kp SPACE &kp U>
+				, <&macro_tap &kp S &kp E &kp PERIOD &kp SPACE>
 				, <&macro_press &kp LSHFT>
 				, <&macro_tap &kp L>
 				, <&macro_release &kp LSHFT>
 				, <&macro_tap &kp I &kp N &kp U &kp X &kp SPACE &kp I &kp S>
 				, <&macro_tap &kp SPACE &kp T &kp H &kp E &kp SPACE &kp K &kp E &kp R>
-				, <&macro_tap &kp N>
-				;
-		)
-		ZMK_MACRO(_linux43,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp E &kp L>
+				, <&macro_tap &kp N &kp E &kp L>
 				, <&macro_press &kp LSHFT>
 				, <&macro_tap &kp SEMICOLON>
 				, <&macro_release &kp LSHFT>
 				, <&macro_tap &kp SPACE &kp T &kp H &kp E &kp SPACE &kp P &kp R>
 				, <&macro_tap &kp O &kp G &kp R &kp A &kp M &kp SPACE &kp I &kp N>
-				;
-		)
-		ZMK_MACRO(_linux44,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp SPACE &kp T &kp H &kp E &kp SPACE &kp S &kp Y &kp S>
+				, <&macro_tap &kp SPACE &kp T &kp H &kp E &kp SPACE &kp S &kp Y &kp S>
 				, <&macro_tap &kp T &kp E &kp M &kp SPACE &kp T &kp H &kp A &kp T>
-				, <&macro_tap &kp SPACE &kp A &kp L &kp L>
-				;
-		)
-		ZMK_MACRO(_linux45,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp O &kp C &kp A &kp T &kp E &kp S &kp SPACE &kp T>
-				, <&macro_tap &kp H &kp E &kp SPACE &kp M &kp A &kp C &kp H &kp I>
-				, <&macro_tap &kp N &kp E &kp SINGLE_QUOTE &kp S>
-				;
-		)
-		ZMK_MACRO(_linux46,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp SPACE &kp R &kp E &kp S &kp O &kp U &kp R &kp C>
+				, <&macro_tap &kp SPACE &kp A &kp L &kp L &kp O &kp C &kp A &kp T>
+				, <&macro_tap &kp E &kp S &kp SPACE &kp T &kp H &kp E &kp SPACE &kp M>
+				, <&macro_tap &kp A &kp C &kp H &kp I &kp N &kp E &kp SINGLE_QUOTE &kp S>
+				, <&macro_tap &kp SPACE &kp R &kp E &kp S &kp O &kp U &kp R &kp C>
 				, <&macro_tap &kp E &kp S &kp SPACE &kp T &kp O &kp SPACE &kp T &kp H>
 				, <&macro_tap &kp E &kp SPACE &kp O &kp T>
 				;
 		)
-		ZMK_MACRO(_linux47,
-			wait-ms = <20>;
-			tap-ms = <20>;
+		ZMK_MACRO(_linux5,
+			wait-ms = <5>;
+			tap-ms = <5>;
 			bindings
 				= <&macro_tap &kp H &kp E &kp R &kp SPACE &kp P &kp R &kp O &kp G>
 				, <&macro_tap &kp R &kp A &kp M &kp S &kp SPACE &kp T &kp H &kp A>
-				, <&macro_tap &kp T &kp SPACE &kp Y &kp O>
-				;
-		)
-		ZMK_MACRO(_linux48,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp U &kp SPACE &kp R &kp U &kp N &kp PERIOD &kp SPACE>
+				, <&macro_tap &kp T &kp SPACE &kp Y &kp O &kp U &kp SPACE &kp R &kp U>
+				, <&macro_tap &kp N &kp PERIOD &kp SPACE>
 				, <&macro_press &kp LSHFT>
 				, <&macro_tap &kp T>
 				, <&macro_release &kp LSHFT>
 				, <&macro_tap &kp H &kp E &kp SPACE &kp K &kp E &kp R &kp N>
-				, <&macro_tap &kp E &kp L &kp SPACE>
-				;
-		)
-		ZMK_MACRO(_linux49,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp I &kp S &kp SPACE &kp A &kp N &kp SPACE &kp E &kp S>
-				, <&macro_tap &kp S &kp E &kp N &kp T &kp I &kp A &kp L &kp SPACE>
-				, <&macro_tap &kp P &kp A &kp R &kp T>
-				;
-		)
-		ZMK_MACRO(_linux50,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp SPACE &kp O &kp F &kp SPACE &kp A &kp N &kp SPACE &kp O>
-				, <&macro_tap &kp P &kp E &kp R &kp A &kp T &kp I &kp N &kp G>
-				, <&macro_tap &kp SPACE &kp S &kp Y &kp S>
-				;
-		)
-		ZMK_MACRO(_linux51,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp T &kp E &kp M &kp COMMA &kp SPACE &kp B &kp U &kp T>
-				, <&macro_tap &kp SPACE &kp U &kp S &kp E &kp L &kp E &kp S &kp S>
-				, <&macro_tap &kp SPACE &kp B &kp Y &kp SPACE>
-				;
-		)
-		ZMK_MACRO(_linux52,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp I &kp T &kp S &kp E &kp L &kp F &kp SEMICOLON &kp SPACE>
-				, <&macro_tap &kp I &kp T &kp SPACE &kp C &kp A &kp N &kp SPACE &kp O>
-				, <&macro_tap &kp N &kp L &kp Y &kp SPACE>
-				;
-		)
-		ZMK_MACRO(_linux53,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp F &kp U &kp N &kp C &kp T &kp I &kp O &kp N>
-				, <&macro_tap &kp SPACE &kp I &kp N &kp SPACE &kp T &kp H &kp E &kp SPACE>
-				, <&macro_tap &kp C &kp O &kp N &kp T>
-				;
-		)
-		ZMK_MACRO(_linux54,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp E &kp X &kp T &kp SPACE &kp O &kp F &kp SPACE &kp A>
-				, <&macro_tap &kp SPACE &kp C &kp O &kp M &kp P &kp L &kp E &kp T>
-				, <&macro_tap &kp E &kp SPACE &kp O &kp P>
-				;
-		)
-		ZMK_MACRO(_linux55,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp E &kp R &kp A &kp T &kp I &kp N &kp G &kp SPACE>
-				, <&macro_tap &kp S &kp Y &kp S &kp T &kp E &kp M &kp PERIOD &kp SPACE>
-				, <&macro_tap>
+				, <&macro_tap &kp E &kp L &kp SPACE &kp I &kp S &kp SPACE &kp A &kp N>
+				, <&macro_tap &kp SPACE &kp E &kp S &kp S &kp E &kp N &kp T &kp I>
+				, <&macro_tap &kp A &kp L &kp SPACE &kp P &kp A &kp R &kp T &kp SPACE>
+				, <&macro_tap &kp O &kp F &kp SPACE &kp A &kp N &kp SPACE &kp O &kp P>
+				, <&macro_tap &kp E &kp R &kp A &kp T &kp I &kp N &kp G &kp SPACE>
+				, <&macro_tap &kp S &kp Y &kp S &kp T &kp E &kp M &kp COMMA &kp SPACE>
+				, <&macro_tap &kp B &kp U &kp T &kp SPACE &kp U &kp S &kp E &kp L>
+				, <&macro_tap &kp E &kp S &kp S &kp SPACE &kp B &kp Y &kp SPACE &kp I>
+				, <&macro_tap &kp T &kp S &kp E &kp L &kp F &kp SEMICOLON &kp SPACE &kp I>
+				, <&macro_tap &kp T &kp SPACE &kp C &kp A &kp N &kp SPACE &kp O &kp N>
+				, <&macro_tap &kp L &kp Y &kp SPACE &kp F &kp U &kp N &kp C &kp T>
+				, <&macro_tap &kp I &kp O &kp N &kp SPACE &kp I &kp N &kp SPACE &kp T>
+				, <&macro_tap &kp H &kp E &kp SPACE &kp C &kp O &kp N &kp T &kp E>
+				, <&macro_tap &kp X &kp T &kp SPACE &kp O &kp F &kp SPACE &kp A &kp SPACE>
+				, <&macro_tap &kp C &kp O &kp M &kp P &kp L &kp E &kp T &kp E>
+				, <&macro_tap &kp SPACE &kp O &kp P &kp E &kp R &kp A &kp T &kp I>
+				, <&macro_tap &kp N &kp G &kp SPACE &kp S &kp Y &kp S &kp T &kp E>
+				, <&macro_tap &kp M &kp PERIOD &kp SPACE>
 				, <&macro_press &kp LSHFT>
 				, <&macro_tap &kp L>
 				, <&macro_release &kp LSHFT>
-				, <&macro_tap &kp I>
+				, <&macro_tap &kp I &kp N &kp U &kp X &kp SPACE &kp I &kp S>
+				, <&macro_tap &kp SPACE &kp N>
 				;
 		)
-		ZMK_MACRO(_linux56,
-			wait-ms = <20>;
-			tap-ms = <20>;
+		ZMK_MACRO(_linux6,
+			wait-ms = <5>;
+			tap-ms = <5>;
 			bindings
-				= <&macro_tap &kp N &kp U &kp X &kp SPACE &kp I &kp S &kp SPACE &kp N>
-				, <&macro_tap &kp O &kp R &kp M &kp A &kp L &kp L &kp Y &kp SPACE>
-				, <&macro_tap &kp U &kp S &kp E &kp D>
-				;
-		)
-		ZMK_MACRO(_linux57,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp SPACE &kp I &kp N &kp SPACE &kp C &kp O &kp M &kp B>
-				, <&macro_tap &kp I &kp N &kp A &kp T &kp I &kp O &kp N &kp SPACE>
-				, <&macro_tap &kp W &kp I &kp T &kp H>
-				;
-		)
-		ZMK_MACRO(_linux58,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp SPACE &kp T &kp H &kp E &kp SPACE>
+				= <&macro_tap &kp O &kp R &kp M &kp A &kp L &kp L &kp Y &kp SPACE>
+				, <&macro_tap &kp U &kp S &kp E &kp D &kp SPACE &kp I &kp N &kp SPACE>
+				, <&macro_tap &kp C &kp O &kp M &kp B &kp I &kp N &kp A &kp T>
+				, <&macro_tap &kp I &kp O &kp N &kp SPACE &kp W &kp I &kp T &kp H>
+				, <&macro_tap &kp SPACE &kp T &kp H &kp E &kp SPACE>
 				, <&macro_press &kp LSHFT>
 				, <&macro_tap &kp G &kp N &kp U>
 				, <&macro_release &kp LSHFT>
 				, <&macro_tap &kp SPACE &kp O &kp P &kp E &kp R &kp A &kp T>
-				, <&macro_tap &kp I &kp N &kp G>
-				;
-		)
-		ZMK_MACRO(_linux59,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp SPACE &kp S &kp Y &kp S &kp T &kp E &kp M>
+				, <&macro_tap &kp I &kp N &kp G &kp SPACE &kp S &kp Y &kp S &kp T>
+				, <&macro_tap &kp E &kp M>
 				, <&macro_press &kp LSHFT>
 				, <&macro_tap &kp SEMICOLON>
 				, <&macro_release &kp LSHFT>
 				, <&macro_tap &kp SPACE &kp T &kp H &kp E &kp SPACE &kp W &kp H>
-				, <&macro_tap &kp O &kp L &kp E>
-				;
-		)
-		ZMK_MACRO(_linux60,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp SPACE &kp S &kp Y &kp S &kp T &kp E &kp M &kp SPACE>
-				, <&macro_tap &kp I &kp S &kp SPACE &kp B &kp A &kp S &kp I &kp C>
-				, <&macro_tap &kp A &kp L &kp L &kp Y>
-				;
-		)
-		ZMK_MACRO(_linux61,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp SPACE>
+				, <&macro_tap &kp O &kp L &kp E &kp SPACE &kp S &kp Y &kp S &kp T>
+				, <&macro_tap &kp E &kp M &kp SPACE &kp I &kp S &kp SPACE &kp B &kp A>
+				, <&macro_tap &kp S &kp I &kp C &kp A &kp L &kp L &kp Y &kp SPACE>
+				, <&macro_tap>
 				, <&macro_press &kp LSHFT>
 				, <&macro_tap &kp G &kp N &kp U>
 				, <&macro_release &kp LSHFT>
@@ -1545,15 +893,9 @@
 				, <&macro_press &kp LSHFT>
 				, <&macro_tap &kp L>
 				, <&macro_release &kp LSHFT>
-				, <&macro_tap &kp I &kp N &kp U &kp X &kp SPACE>
-				;
-		)
-		ZMK_MACRO(_linux62,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp A &kp D &kp D &kp E &kp D &kp COMMA &kp SPACE &kp O>
-				, <&macro_tap &kp R &kp SPACE>
+				, <&macro_tap &kp I &kp N &kp U &kp X &kp SPACE &kp A &kp D>
+				, <&macro_tap &kp D &kp E &kp D &kp COMMA &kp SPACE &kp O &kp R &kp SPACE>
+				, <&macro_tap>
 				, <&macro_press &kp LSHFT>
 				, <&macro_tap &kp G &kp N &kp U>
 				, <&macro_release &kp LSHFT>
@@ -1561,59 +903,33 @@
 				, <&macro_press &kp LSHFT>
 				, <&macro_tap &kp L>
 				, <&macro_release &kp LSHFT>
-				, <&macro_tap &kp I>
-				;
-		)
-		ZMK_MACRO(_linux63,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp N &kp U &kp X &kp PERIOD &kp SPACE>
+				, <&macro_tap &kp I &kp N &kp U &kp X &kp PERIOD &kp SPACE>
 				, <&macro_press &kp LSHFT>
 				, <&macro_tap &kp A>
 				, <&macro_release &kp LSHFT>
 				, <&macro_tap &kp L &kp L &kp SPACE &kp T &kp H &kp E &kp SPACE>
-				, <&macro_tap &kp S &kp O &kp MINUS &kp C &kp A>
-				;
-		)
-		ZMK_MACRO(_linux64,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp L &kp L &kp E &kp D &kp SPACE>
+				, <&macro_tap &kp S &kp O &kp MINUS &kp C &kp A &kp L &kp L &kp E>
+				, <&macro_tap &kp D &kp SPACE>
 				, <&macro_press &kp LSHFT>
 				, <&macro_tap &kp L>
 				, <&macro_release &kp LSHFT>
 				, <&macro_tap &kp I &kp N &kp U &kp X &kp SPACE &kp D &kp I>
-				, <&macro_tap &kp S &kp T &kp R &kp I &kp B>
+				, <&macro_tap &kp S &kp T &kp R &kp I &kp B &kp U &kp T &kp I>
+				, <&macro_tap &kp O &kp N &kp S &kp SPACE &kp A &kp R &kp E &kp SPACE>
+				, <&macro_tap &kp R &kp E &kp A &kp L &kp L>
 				;
 		)
-		ZMK_MACRO(_linux65,
-			wait-ms = <20>;
-			tap-ms = <20>;
+		ZMK_MACRO(_linux7,
+			wait-ms = <5>;
+			tap-ms = <5>;
 			bindings
-				= <&macro_tap &kp U &kp T &kp I &kp O &kp N &kp S &kp SPACE &kp A>
-				, <&macro_tap &kp R &kp E &kp SPACE &kp R &kp E &kp A &kp L &kp L>
-				, <&macro_tap &kp Y &kp SPACE &kp D &kp I>
-				;
-		)
-		ZMK_MACRO(_linux66,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp S &kp T &kp R &kp I &kp B &kp U &kp T &kp I>
-				, <&macro_tap &kp O &kp N &kp S &kp SPACE &kp O &kp F &kp SPACE>
+				= <&macro_tap &kp Y &kp SPACE &kp D &kp I &kp S &kp T &kp R &kp I>
+				, <&macro_tap &kp B &kp U &kp T &kp I &kp O &kp N &kp S &kp SPACE>
+				, <&macro_tap &kp O &kp F &kp SPACE>
 				, <&macro_press &kp LSHFT>
 				, <&macro_tap &kp G &kp N &kp U>
 				, <&macro_release &kp LSHFT>
-				, <&macro_tap>
-				;
-		)
-		ZMK_MACRO(_linux67,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp SLASH>
+				, <&macro_tap &kp SLASH>
 				, <&macro_press &kp LSHFT>
 				, <&macro_tap &kp L>
 				, <&macro_release &kp LSHFT>
@@ -1622,280 +938,8 @@
 				, <&macro_tap &kp N1>
 				, <&macro_release &kp LSHFT>
 				, <&macro_tap &kp SPACE>
-				, <&macro_press &kp LSHFT>
-				, <&macro_tap &kp I>
-				, <&macro_release &kp LSHFT>
-				, <&macro_tap &kp SINGLE_QUOTE &kp D &kp SPACE &kp J &kp U>
 				;
-		)
-		ZMK_MACRO(_linux68,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp S &kp T &kp SPACE &kp L &kp I &kp K &kp E &kp SPACE>
-				, <&macro_tap &kp T &kp O &kp SPACE &kp I &kp N &kp T &kp E &kp R>
-				, <&macro_tap &kp J &kp E &kp C &kp T>
-				;
-		)
-		ZMK_MACRO(_linux69,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp SPACE &kp F &kp O &kp R &kp SPACE &kp A &kp SPACE &kp M>
-				, <&macro_tap &kp O &kp M &kp E &kp N &kp T &kp PERIOD &kp SPACE>
-				, <&macro_press &kp LSHFT>
-				, <&macro_tap &kp I>
-				, <&macro_release &kp LSHFT>
-				, <&macro_tap &kp SINGLE_QUOTE &kp D>
-				;
-		)
-		ZMK_MACRO(_linux70,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp SPACE &kp J &kp U &kp S &kp T &kp SPACE &kp L &kp I>
-				, <&macro_tap &kp K &kp E &kp SPACE &kp T &kp O &kp SPACE &kp I &kp N>
-				, <&macro_tap &kp T &kp E &kp R &kp J>
-				;
-		)
-		ZMK_MACRO(_linux71,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp E &kp C &kp T &kp SPACE &kp F &kp O &kp R &kp SPACE>
-				, <&macro_tap &kp A &kp SPACE &kp M &kp O &kp M &kp E &kp N &kp T>
-				, <&macro_tap &kp PERIOD &kp SPACE>
-				, <&macro_press &kp LSHFT>
-				, <&macro_tap &kp I>
-				;
-		)
-		ZMK_MACRO(_linux72,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_release &kp LSHFT>
-				, <&macro_tap &kp SINGLE_QUOTE &kp D &kp SPACE &kp J &kp U &kp S &kp T>
-				, <&macro_tap &kp SPACE &kp L &kp I &kp K &kp E &kp SPACE &kp T &kp O>
-				, <&macro_tap &kp SPACE &kp I &kp N &kp T>
-				;
-		)
-		ZMK_MACRO(_linux73,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp E &kp R &kp J &kp E &kp C &kp T &kp SPACE &kp F>
-				, <&macro_tap &kp O &kp R &kp SPACE &kp A &kp SPACE &kp M &kp O &kp M>
-				, <&macro_tap &kp E &kp N &kp T &kp PERIOD>
-				;
-		)
-		ZMK_MACRO(_linux74,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp SPACE>
-				, <&macro_press &kp LSHFT>
-				, <&macro_tap &kp I>
-				, <&macro_release &kp LSHFT>
-				, <&macro_tap &kp SINGLE_QUOTE &kp D &kp SPACE &kp J &kp U &kp S &kp T>
-				, <&macro_tap &kp SPACE &kp L &kp I &kp K &kp E &kp SPACE &kp T &kp O>
-				, <&macro_tap &kp SPACE>
-				;
-		)
-		ZMK_MACRO(_linux75,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp I &kp N &kp T &kp E &kp R &kp J &kp E &kp C>
-				, <&macro_tap &kp T &kp SPACE &kp F &kp O &kp R &kp SPACE &kp A &kp SPACE>
-				, <&macro_tap &kp M &kp O &kp M &kp E>
-				;
-		)
-		ZMK_MACRO(_linux76,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp N &kp T &kp PERIOD &kp SPACE>
-				, <&macro_press &kp LSHFT>
-				, <&macro_tap &kp I>
-				, <&macro_release &kp LSHFT>
-				, <&macro_tap &kp SINGLE_QUOTE &kp D &kp SPACE &kp J &kp U &kp S &kp T>
-				, <&macro_tap &kp SPACE &kp L &kp I &kp K &kp E &kp SPACE>
-				;
-		)
-		ZMK_MACRO(_linux77,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp T &kp O &kp SPACE &kp I &kp N &kp T &kp E &kp R>
-				, <&macro_tap &kp J &kp E &kp C &kp T &kp SPACE &kp F &kp O &kp R>
-				, <&macro_tap &kp SPACE &kp A &kp SPACE &kp M>
-				;
-		)
-		ZMK_MACRO(_linux78,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp O &kp M &kp E &kp N &kp T &kp PERIOD &kp SPACE>
-				, <&macro_press &kp LSHFT>
-				, <&macro_tap &kp I>
-				, <&macro_release &kp LSHFT>
-				, <&macro_tap &kp SINGLE_QUOTE &kp D &kp SPACE &kp J &kp U &kp S &kp T>
-				, <&macro_tap &kp SPACE &kp L &kp I>
-				;
-		)
-		ZMK_MACRO(_linux79,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp K &kp E &kp SPACE &kp T &kp O &kp SPACE &kp I &kp N>
-				, <&macro_tap &kp T &kp E &kp R &kp J &kp E &kp C &kp T &kp SPACE>
-				, <&macro_tap &kp F &kp O &kp R &kp SPACE>
-				;
-		)
-		ZMK_MACRO(_linux80,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp A &kp SPACE &kp M &kp O &kp M &kp E &kp N &kp T>
-				, <&macro_tap &kp PERIOD &kp SPACE>
-				, <&macro_press &kp LSHFT>
-				, <&macro_tap &kp I>
-				, <&macro_release &kp LSHFT>
-				, <&macro_tap &kp SINGLE_QUOTE &kp D &kp SPACE &kp J &kp U &kp S &kp T>
-				;
-		)
-		ZMK_MACRO(_linux81,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp SPACE &kp L &kp I &kp K &kp E &kp SPACE &kp T &kp O>
-				, <&macro_tap &kp SPACE &kp I &kp N &kp T &kp E &kp R &kp J &kp E>
-				, <&macro_tap &kp C &kp T &kp SPACE &kp F>
-				;
-		)
-		ZMK_MACRO(_linux82,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp O &kp R &kp SPACE &kp A &kp SPACE &kp M &kp O &kp M>
-				, <&macro_tap &kp E &kp N &kp T &kp PERIOD &kp SPACE>
-				, <&macro_press &kp LSHFT>
-				, <&macro_tap &kp I>
-				, <&macro_release &kp LSHFT>
-				, <&macro_tap &kp SINGLE_QUOTE &kp D &kp SPACE &kp J>
-				;
-		)
-		ZMK_MACRO(_linux83,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp U &kp S &kp T &kp SPACE &kp L &kp I &kp K &kp E>
-				, <&macro_tap &kp SPACE &kp T &kp O &kp SPACE &kp I &kp N &kp T &kp E>
-				, <&macro_tap &kp R &kp J &kp E &kp C>
-				;
-		)
-		ZMK_MACRO(_linux84,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp T &kp SPACE &kp F &kp O &kp R &kp SPACE &kp A &kp SPACE>
-				, <&macro_tap &kp M &kp O &kp M &kp E &kp N &kp T &kp PERIOD &kp SPACE>
-				, <&macro_tap>
-				, <&macro_press &kp LSHFT>
-				, <&macro_tap &kp I>
-				, <&macro_release &kp LSHFT>
-				, <&macro_tap &kp SINGLE_QUOTE>
-				;
-		)
-		ZMK_MACRO(_linux85,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp D &kp SPACE &kp J &kp U &kp S &kp T &kp SPACE &kp L>
-				, <&macro_tap &kp I &kp K &kp E &kp SPACE &kp T &kp O &kp SPACE &kp I>
-				, <&macro_tap &kp N &kp T &kp E &kp R>
-				;
-		)
-		ZMK_MACRO(_linux86,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp J &kp E &kp C &kp T &kp SPACE &kp F &kp O &kp R>
-				, <&macro_tap &kp SPACE &kp A &kp SPACE &kp M &kp O &kp M &kp E &kp N>
-				, <&macro_tap &kp T &kp PERIOD &kp SPACE>
-				, <&macro_press &kp LSHFT>
-				, <&macro_tap>
-				;
-		)
-		ZMK_MACRO(_linux87,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp I>
-				, <&macro_release &kp LSHFT>
-				, <&macro_tap &kp SINGLE_QUOTE &kp D &kp SPACE &kp J &kp U &kp S &kp T>
-				, <&macro_tap &kp SPACE &kp L &kp I &kp K &kp E &kp SPACE &kp T &kp O>
-				, <&macro_tap &kp SPACE &kp I &kp N>
-				;
-		)
-		ZMK_MACRO(_linux88,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp T &kp E &kp R &kp J &kp E &kp C &kp T &kp SPACE>
-				, <&macro_tap &kp F &kp O &kp R &kp SPACE &kp A &kp SPACE &kp M &kp O>
-				, <&macro_tap &kp M &kp E &kp N &kp T>
-				;
-		)
-		ZMK_MACRO(_linux89,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp PERIOD &kp SPACE>
-				, <&macro_press &kp LSHFT>
-				, <&macro_tap &kp I>
-				, <&macro_release &kp LSHFT>
-				, <&macro_tap &kp SINGLE_QUOTE &kp D &kp SPACE &kp J &kp U &kp S &kp T>
-				, <&macro_tap &kp SPACE &kp L &kp I &kp K &kp E &kp SPACE &kp T &kp O>
-				;
-		)
-		ZMK_MACRO(_linux90,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp SPACE &kp I &kp N &kp T &kp E &kp R &kp J &kp E>
-				, <&macro_tap &kp C &kp T &kp SPACE &kp F &kp O &kp R &kp SPACE &kp A>
-				, <&macro_tap &kp SPACE &kp M &kp O &kp M>
-				;
-		)
-		ZMK_MACRO(_linux91,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp E &kp N &kp T &kp PERIOD &kp SPACE>
-				, <&macro_press &kp LSHFT>
-				, <&macro_tap &kp I>
-				, <&macro_release &kp LSHFT>
-				, <&macro_tap &kp SINGLE_QUOTE &kp D &kp SPACE &kp J &kp U &kp S &kp T>
-				, <&macro_tap &kp SPACE &kp L &kp I &kp K &kp E>
-				;
-		)
-		ZMK_MACRO(_linux92,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp SPACE &kp T &kp O &kp SPACE &kp I &kp N &kp T &kp E>
-				, <&macro_tap &kp R &kp J &kp E &kp C &kp T &kp SPACE &kp F &kp O>
-				, <&macro_tap &kp R &kp SPACE &kp A &kp SPACE>
-				;
-		)
-		ZMK_MACRO(_linux93,
-			wait-ms = <20>;
-			tap-ms = <20>;
-			bindings
-				= <&macro_tap &kp M &kp O &kp M &kp E &kp N &kp T &kp PERIOD &kp SPACE>
-				;
-		)
+		)		
         };
 
         keymap {
